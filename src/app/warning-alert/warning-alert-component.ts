@@ -1,12 +1,17 @@
-@import { Component } from 'angular/core';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component'; // Ensure correct path
 
-@Component({
-  selector: 'app-warning-alert',
-  template: `
-  <p>This is a warning. You are in danger!</p>
-  `
+@NgModule({
+  declarations: [
+    AppComponent,
+    WarningAlertComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
-
-export class WarningAlertComponent {
-
-}
+export class AppModule { }
