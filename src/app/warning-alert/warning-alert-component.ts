@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
-import { WarningAlertComponent } from './warning-alert/warning-alert.component'; // Ensure correct path
+// import { AppComponent } from './app.component';
+// import { WarningAlertComponent } from './warning-alert/warning-alert.component'; // Ensure correct path
 
 @NgModule({
   declarations: [
-    AppComponent,
-    WarningAlertComponent
+    // AppComponent,
+
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  // bootstrap: [AppComponent]
 })
 export class AppModule { }
